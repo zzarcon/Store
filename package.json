@@ -1,0 +1,25 @@
+{
+  "name": "Store",
+  "version": "1.0.0",
+  "description": "Lightweight front-end Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzarcon/Store.git"
+  },
+  "keywords": [
+    "store"
+  ],
+  "author": "zzarcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzarcon/Store/issues"
+  },
+  "homepage": "https://github.com/zzarcon/Store",
+  "devDependencies": {
+    "watchify": "^2.4.0"
+  }
+}
