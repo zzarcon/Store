@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/zzarcon/Store",
   "devDependencies": {
+    "rsvp": "^3.0.17",
     "watchify": "^2.4.0"
   }
 }
