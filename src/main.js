@@ -1,7 +1,7 @@
 var store = require('./store');
-
-store.Adapter.host = '';
-
-store.find('user', 1);
-
 window.Store = store;
+
+// var record = store.find('user', 1);
+// record.then(function(response) {
+
+// });
