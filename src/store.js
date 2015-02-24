@@ -24,7 +24,7 @@ module.exports = function() {
       return record;
     }
 
-    fetch(model, id);
+    return fetch(model, id);
   }
 
   /**
@@ -35,9 +35,13 @@ module.exports = function() {
    */
   function fetch(model, id) {
     var url = [Adapter.host, model, id].join('/');
-    return ajax('GET', url).then(function(response) {
+    var request = ajax('GET', url);
+
+    request.then(function(response) {
       saveRecord(model, id, response);
     });
+
+    return request;
   }
 
   /**
