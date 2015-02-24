@@ -8,9 +8,10 @@ cache:
     - node_modules
 
 before_install:
-  - "which chromium-browser"
-  - export CHROME_BIN=chromium-browser
+  # - "which chromium-browser"
+  # - export CHROME_BIN=chromium-browser
   # - "export CHROME_BIN=`which chromium-browser`"
+  - "export PHANTOMJS_BIN=`which phantomjs`"
   - "npm config set spin false"
   - "npm install -g npm@^2"
 
