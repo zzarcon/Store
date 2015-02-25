@@ -6,6 +6,14 @@
 
 # TODO
 
+  * Describe library
+  * Add docs to Readme
   * Adapter headers
   * Store.find accept query params
-  * Store.push --> Insert objects directly in the store
+  * Store.push --> Insert objects directly into the store
+  * Store.createRecord
+  * Record.delete
+
+# Inspiration
+
+  Ember Data <3
